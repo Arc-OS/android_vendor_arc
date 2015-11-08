@@ -360,4 +360,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 -include vendor/cyngn/product.mk
 
+$(call inherit-product, vendor/cm/config/arc_config.mk)
+
 $(call prepend-product-if-exists, vendor/extra/product.mk)
